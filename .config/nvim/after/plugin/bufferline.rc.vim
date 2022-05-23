@@ -1,0 +1,45 @@
+lua << EOF
+-- vim.api.nvim_exec([[let $KITTY_WINDOW_ID=0]], true)
+-- require("bufferline").setup{
+--     options = {
+--         indicator_icon = '▎',
+--         buffer_close_icon = '',
+--         modified_icon = '●',
+--         close_icon = '',
+--         left_trunc_marker = '',
+--         right_trunc_marker = '',
+--         max_name_length = 25,
+--         max_prefix_length = 25,
+--         diagnostics = "nvim-lsp",
+--         diagnostics_update_in_insert = false,
+--         diagnostics_indicator = function(count, level, diagnostics_dict, context)
+--             return "("..count..")"
+--         end,
+--         show_buffer_close_icons = true,
+--         show_close_icon = false,
+--         separator_style = "thin",
+--         offsets = {
+--             {
+--               filetype = "coc-explorer",
+--               text = "File Explorer",
+--               highlight = "Directory",
+--               text_align = "center"
+--             }
+--         }
+--     }, 
+--     highlights = {
+--         fill = {
+--           guibg = "#282828"
+--         },
+--         separator_selected = {
+--           guifg = "#282828"
+--         },
+--         separator_visible = {
+--           guifg = "#282828"
+--         },
+--         separator = {
+--           guifg = "#282828"
+--         }
+--     },
+-- }
+EOF
